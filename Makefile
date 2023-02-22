@@ -14,3 +14,6 @@ txttoroot: txttoroot.cc
 clean:
 	rm -f txttoroot
 	rm -f *~
+	rm -f txttoroot.log
+	rm -f *.root
+

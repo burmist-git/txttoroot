@@ -16,7 +16,7 @@ else
 	nwf=`grep waveform $firstFile | wc -l`
 	Npoints=`grep Npoints $firstFile | head -n 1 | awk '{print $2}'`
 	for file_to_convert in `more doConvert.txt | awk '{print $2}' | xargs`; do
-	    ./txttoroot $file_to_convert $Npoints $nwf | tee -a txttoroot.log
+	    time ./txttoroot $file_to_convert $Npoints $nwf | tee -a txttoroot.log
 	done
     elif [ "$1" = "-h" ]; then
         printHelp

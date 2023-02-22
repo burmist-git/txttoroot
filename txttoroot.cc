@@ -51,7 +51,7 @@ int main(int argc, char *argv[]){
     Int_t Npoints = atoi(argv[2]);
     Int_t Nwf = atoi(argv[3]);
     cout<<"txtFile  : "<<txtFile<<endl
-	<<"rootFile : "<<txtFile<<endl
+	<<"rootFile : "<<rootFile<<endl
 	<<"Npoints  : "<<Npoints<<endl
 	<<"Nwf      : "<<Nwf<<endl;
     convtoroot( txtFile, rootFile, Npoints, Nwf);
