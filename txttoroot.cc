@@ -53,7 +53,7 @@ int main(int argc, char *argv[]){
     cout<<"txtFile  : "<<txtFile<<endl
 	<<"rootFile : "<<txtFile<<endl
 	<<"Npoints  : "<<Npoints<<endl
-	<<"Nwf      : "<<Npoints<<endl;
+	<<"Nwf      : "<<Nwf<<endl;
     convtoroot( txtFile, rootFile, Npoints, Nwf);
   }
   else{
